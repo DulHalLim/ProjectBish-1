@@ -22,7 +22,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern="^\.sysd$")
 async def sysdetails(sysd):
     """ For .sysd command, get system info using neofetch. """
-    if not sysd.text[0].isalpha() and sysd.text[0] not in ("/", "#", "@", "!"):
+    if not sysd.text[0].isalpha() and sysd.text[0] not in ("/", "#", "@", "!")
         try:
             fetch = await asyncrunapp(
                 "neofetch",
@@ -131,7 +131,7 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     logo = ALIVE_LOGO
-    output = (f"`DaengServer` is running on `{UPSTREAM_REPO_BRANCH}`\n"
+    output  = ( f "` ` berjalan di ` { UPSTREAM_REPO_BRANCH } ` \ n Userbot"
              f"•••••••••••••••••••••••••••••••••••••••••••••••••\n"
              f"🐍 `Python    :` v{python_version()}\n"
              f"⚙️ `Telethon  :` v{version.__version__}\n"
