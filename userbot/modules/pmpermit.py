@@ -21,7 +21,7 @@ UNAPPROVED_MSG = (
     "`Silahkan menunggu sampai saya menerima chat anda.\n`"
     "`Sementara itu, jangan spam chat.. jika spam, anda akan di blokir otomatis oleh bot.\n`"
     "`Mengerti?\n\n`"
-    "`® Daeng Server Bot`")
+    
 # =================================================================
 
 
